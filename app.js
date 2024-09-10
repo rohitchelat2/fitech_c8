@@ -1,7 +1,7 @@
 import { serve } from "./deps.js";
 
 const handleRequest = (request) => {
-        return new Response("Hi again!");
+        return new Response("Hi there!");
 };
 
 serve(handleRequest, { port: 8000 });
