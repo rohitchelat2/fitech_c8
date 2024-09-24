@@ -5,4 +5,3 @@ const handleRequest = (request) => {
 };
 
 serve(handleRequest, { port: 8000 });
-
